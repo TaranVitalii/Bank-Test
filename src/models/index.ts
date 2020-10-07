@@ -1,0 +1,21 @@
+export const maxCardLength = 16;
+export const separatorCalc = 4;
+
+export const maxVerifyLength = 4;
+export const separatorLength = 1;
+
+export enum machineActions {
+  ENTER_CARD_NUMBER = 'ENTER_CARD_NUMBER',
+  ENTER_CASH = 'ENTER_CASH',
+  CONFIRMATION_TRANSACTION = 'CONFIRMATION_TRANSACTION',
+  SUCCESS_TRANSFER = 'SUCCESS_TRANSFER',
+}
+
+export enum localeRoutes {
+  TO_ENTER_CASH = 'TO_ENTER_CASH',
+  TO_CONFIRMATION_TRANSACTION = 'TO_CONFIRMATION_TRANSACTION',
+  BACK_TO_ENTER_CARD = 'BACK_TO_ENTER_CARD',
+  BACK_TO_ENTER_CASH = 'BACK_TO_ENTER_CASH',
+  TO_SUCCESS_TRANSFER = 'TO_SUCCESS_TRANSFER',
+  TO_ENTER_CARD_NUMBER = 'TO_ENTER_CARD_NUMBER',
+}
